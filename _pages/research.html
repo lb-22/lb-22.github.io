@@ -11,7 +11,41 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Working Papers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    h2 {
+      border-bottom: 2px solid #000;
+      padding-bottom: 0.3em;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5em;
+    }
+    li {
+      margin-bottom: 0.8em;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Working papers</h2>
+<ul>
+  <li>Conditional Method Confidence Set. <em>With E. Kazak,</em> <a href="http://arxiv.org/abs/2505.21278" target="_blank">http://arxiv.org/abs/2505.21278</a></li>
+  <li>Evaluating Financial Tail Risk Forecasts: Testing Equal Predictive Ability. <a href="http://arxiv.org/abs/2505.23333" target="_blank">http://arxiv.org/abs/2505.23333</a></li>
+  <li>High Frequency Econometrics: A Selective Survey. <em>With R. Halbleib, R. Olsen, and T. Andersen.</em></li>
+</ul>
+
+</body>
+</html>
+
+<!-- New style rendering if publication categories are defined
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -32,5 +66,5 @@ author_profile: true
   {% endfor %}
 {% endif %}
 
-
+ -->
 
