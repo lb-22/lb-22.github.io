@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my homepage. I am Postdoctoral Researcher at the [Chair of Statistics and Econometrics](https://uni-freiburg.de/econ-econometrics/), University of Freiburg, Germany.
+Welcome to my homepage. I am a Postdoctoral Researcher at the [Chair of Statistics and Econometrics](https://uni-freiburg.de/econ-econometrics/), University of Freiburg, Germany.
 
 My research interests are forecast evaluation, forecast combination, financial tail risk, probabilistic forecasting, and machine learning.
 
